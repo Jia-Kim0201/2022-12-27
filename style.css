@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+header {
+  position: sticky;
+  top :0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: aquamarine;
+}
+
+.logo img{
+  width: 40px;
+  margin-left: 20px;
+}
+
+.gnb-list {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.gnb-item a {
+  font-weight: 700;
+  transition:all 300ms ease-in-out;
+}
+
+.gnb-item a:hover {
+  color: aquamarine;
+  transform: scale(1.2);
+}
+
+
+.pasition{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 5px 5px #888;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  position: fixed;
+}
+
+.background{
+  height: 600px;
+  background-image: url('./images/스누피배경.jpeg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.front-txt {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  color: #fff;
+}
+
+.front-title {
+  font-size: 36px;
+
+}
+
+.front-content {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.front-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-weight: 700;
+  border: none;
+}
+
+.top {
+  margin-top: -100px;
+  /* display: flex; */
+  justify-content: center;
+}
+
+
+.section-txt {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #000;
+  background-color:rgb(213, 255, 255);
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.section-txt p {
+  margin-top: 30px;
+}
+
+.section-txt-txt {
+  margin-top: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 255, 255);
+
+}
+
+.snoopy-box {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snoopy {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  background-image: url(./images/스누피2.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.snoopy-box2 {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snoopy2 {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  background-image: url(./images/pngegg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  background-color:aqua;
+  padding: 20px 0;
+  margin-top: 120px;
+}
+
+.global-footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.global-footer h3 {
+  color: #fff;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-item :last-child{
+  padding-left: 15px;
+  margin-right: 0;
+  width: 25px;
+  height: 25px;
+}
